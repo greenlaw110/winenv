@@ -1,0 +1,266 @@
+!SESSION 2011-02-23 20:34:41.901 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_AU
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2011-02-23 20:35:06.041
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle.1.3.8_1.3.8.v201010161055
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2011-02-23 20:35:06.697
+!MESSAGE Registering: com.google.gwt.eclipse.sdkbundle.2.1.0_2.1.0.v201010280102
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2011-02-23 20:35:15.561
+!MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.eclipse.jface 2 0 2011-02-23 20:35:18.953
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-02-23 20:35:18.953
+!MESSAGE A conflict occurred for ALT+SHIFT+G:
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.push,Push,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.PushHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.github.network,Show Github Network,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.GithubNetworkHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.pull,Pull,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.PullHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.status,Status,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.StatusHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.commit,Commit...,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.CommitHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.revert,Revert,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.RevertHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.unstage,Unstage,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.UnstageHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.stage,Stage,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.StageHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.create_branch,Create Branch...,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.CreateBranchHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.switch_branch,Switch Branch...,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.SwitchBranchHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.merge_branch,Merge Branch...,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.MergeBranchHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.delete_branch,Delete Branch...,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.DeleteBranchHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.merge_conflicts,Merge Conflicts...,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.MergeConflictsHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.compare_with_HEAD,Compare With HEAD,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.CompareWithHEADHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.compare_with_revision,Compare With Revision...,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.CompareWithRevisionHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.blame,Blame,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.BlameHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.disconnect,Disconnect,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.DisconnectHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.diff,Diff...,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.DiffHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.attach,Initialize Git repository,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.AttachGitRepoHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.showInResourceHistory,Show in Resource History,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.ShowInHistoryHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.stash,Stash,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.StashHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.unstash,Unstash,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.UnstashHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.aptana.git.ui.command.ignore,Add to .gitignore,
+		,
+		Category(com.aptana.git.ui.category,Git,null,true),
+		com.aptana.git.ui.internal.actions.IgnoreHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-02-23 20:35:18.953
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.DownloadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.radrails.rails.internal.ui.commands.DebugServerHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-02-23 20:35:18.953
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-02-23 20:35:18.953
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

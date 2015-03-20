@@ -1,0 +1,5 @@
+#!/bin/sh
+
+_LCP_=`dirname $0`
+
+java -cp "$_LCP_" SysProps

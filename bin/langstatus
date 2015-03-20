@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# Usage: cqa_show_a_bug <bug_info_level>
+#
+# Dependency:
+# - $CQA_HOME/bin/cqa_show_bug
+# - $CQA_HOME/.profile
+#
+
+tmp_=/tmp/$USER-$RANDOM-$$
+export CQA_FLTR='Proj_Predicted_Release|eq|Matrix_Localize,Team|neq|SIT_SCH_TEAM,CI_System|eq|MATRIX,CI_Product|EQ|SW_Language_Packs'
+cqa_show_bug $* > $tmp_
+
+cat $tmp_ | queryFmt3.pl | cqa_format.pl
+
+# eof of this script

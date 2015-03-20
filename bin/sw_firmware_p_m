@@ -1,0 +1,4 @@
+echo 'SW_Firmware_Portable:'
+cqa_find_bug 'CI_Product|eq|SW_Firmware_Portable' 
+echo 'SW_Firmware_Mobile:'
+cqa_find_bug 'CI_Product|eq|SW_Firmware_Mobile' 

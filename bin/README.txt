@@ -1,0 +1,1 @@
+Note you need img2img.exe from ImageMagick to run img_resize.bat

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+_jikes.exe -bootclasspath 'c:\j2sdk1.4.2_03\jre\lib\rt.jar' -extdirs 'c:\j2sdk1.4.2_03\jre\lib\ext' $*

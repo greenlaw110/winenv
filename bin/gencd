@@ -1,0 +1,4 @@
+#!/bin/sh
+find . -name "*.java" | xargs javadoc -docletpath "$UMLGRAPH_HOME"\\lib\\UmlGraph.jar -doclet gr.spinellis.umlgraph.doclet.UmlGraph $*
+dot -Tgif -odesign.gif graph.dot
+start design.gif

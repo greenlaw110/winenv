@@ -1,0 +1,22 @@
+#!/bin/sh
+
+help()
+{
+	echo 'usage: unjar <jar-file> <destination>'
+}
+
+if [ $# -lt 2 ] ; then
+	help
+	exit 1
+fi
+
+JAR_FILE=$1
+DST=$2
+
+#unzip the jar file to specified destination
+(mkdir "$DST"; cd "$DST"; jar xf ../"$JAR_FILE")
+echo "jar file unziped to $DST."
+
+#decompile class files
+(mkdir -p "$DST"/src/java; find $DST -name "*.class" | xargs -I '{}' jad -d "$DST"/src -s java -r '{}')
+echo "java src file generated in $DST/src/java."

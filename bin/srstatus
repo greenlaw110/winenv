@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# Usage: srstatus <bug_info_level>
+#
+# Dependency:
+# - $CQA_HOME/bin/cqa_show_bug
+# - $CQA_HOME/.profile
+#
+
+tmp_=/tmp/$USER-$RANDOM-$$
+export CQA_FLTR='Proj_Predicted_Release|eq|MATRIX1.1a,Team|neq|SIT_SCH_TEAM,CI_System|eq|MATRIX,CI_Product|EQ|SW_Firmware_Core'
+cqa_show_bug $* > $tmp_
+export CQA_FLTR='Proj_Predicted_Release|eq|MATRIX1.1a,Team|neq|SIT_SCH_TEAM,CI_System|eq|MATRIX,CI_Product|eq|SW_Codeplug|'
+cqa_show_bug $* >> $tmp_
+
+export CQA_FLTR='Proj_Release_Captured|eq|MATRIX1.1a,Proj_Predicted_Release|not_like|MATRIX,Team|neq|SIT_SCH_TEAM,CI_System|eq|MATRIX,CI_Product|EQ|SW_Firmware_Core'
+cqa_show_bug $* >> $tmp_
+export CQA_FLTR='Proj_Release_Captured|eq|MATRIX1.1a,Proj_Predicted_Release|not_like|MATRIX,Team|neq|SIT_SCH_TEAM,CI_System|eq|MATRIX,CI_Product|eq|SW_Codeplug'
+cqa_show_bug $* >> $tmp_
+
+cat $tmp_ | queryFmt3.pl | cqa_format.pl
+
+# eof of this script

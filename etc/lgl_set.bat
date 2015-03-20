@@ -1,0 +1,1 @@
+@call %~dp0/../_etc/lgl_set.bat

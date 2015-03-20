@@ -1,0 +1,17 @@
+\cgiss_subscriber
+\digital_core
+\epg_platform
+\gcp_nucleus_releases
+\ltd
+\ltd_apps
+\ltd_headers
+\ltd_model
+\ltd_release
+\ltd_vr
+\matrix_pcapp
+\patriarch
+\radios_protocols
+\samurai
+\scm_sandbox
+\scm_tools
+\GSG_Innovation
